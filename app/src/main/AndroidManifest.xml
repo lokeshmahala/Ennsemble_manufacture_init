@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.ennsemble2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainPage"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainPage1"
+            android:label="@string/title_activity_main_page1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddItemActivity"
+            android:label="@string/title_activity_add_item"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutUsAcitivity"
+            android:label="@string/title_activity_about_us_acitivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddHeadingDesc"
+            android:label="@string/title_activity_add_heading_desc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ItemPriceDescActivity"
+            android:label="@string/title_activity_item_price_desc"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

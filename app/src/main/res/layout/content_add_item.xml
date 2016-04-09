@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.lenovo.ennsemble2.AddItemActivity"
+    tools:showIn="@layout/activity_add_item">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/productNameTextInputForAddItem"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Product Name"
+            android:id="@+id/productNameEtForAddItem"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/pinnCodeTextInputForAddItem"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Pincode "
+            android:inputType="number"
+            android:id="@+id/pincodeEtForAddItem"/>
+
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/categoryNameTextInputForAddItem"
+        android:layout_marginTop="10dp"
+        >
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Category Name"
+            android:id="@+id/categoryNameForAddItem"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/subCategoryNameTextInputForAddItem"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/subCategoryForAddItem"
+            android:hint="Sub Category Name"
+            />
+
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/subsubCategoryNameTextInputForAddItem"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Sub Sub Category Name"
+            android:id="@+id/subsubCategoryNameForAddItem"/>
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Next"
+        android:id="@+id/nextButtonForAddItem"
+        android:layout_marginTop="20dp"
+        android:background="#1f14f1"
+        android:textColor="#eb1313"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
